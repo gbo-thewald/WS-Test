@@ -1,5 +1,5 @@
 {
-  "name": "WS Test",
+  "name": "WS-Test",
   "version": "1.0.0",
   "description": "Nur mal so ein Test",
   "author": "Guido Bothe <guido.bothe@thewald.de>",
@@ -7,36 +7,16 @@
     "name": "Guido Bothe",
     "email": "guido.bothe@thewald.de"
   }],
-  "bin": {
-    "module-name": "./bin/module-name"
-  },
-  "scripts": {
-    "test": "vows --spec --isolate",
-    "start": "node index.js",
-    "predeploy": "echo im about to deploy",
-    "postdeploy": "echo ive deployed",
-    "prepublish": "coffee --bare --compile --output lib/foo src/foo/*.coffee"
-  },
-  "main": "lib/foo.js",
+
   "repository": {
     "type": "git",
-    "url": "https://github.com/nodejitsu/browsenpm.org"
+    "url": "https://github.com/gbo-thewald/WS-Test"
   },
-  "bugs": {
-    "url": "https://github.com/nodejitsu/browsenpm.org/issues"
-  },
-  "keywords": [
-    "nodejitsu",
-    "example",
-    "browsenpm"
-  ],
+
   "dependencies": {
     "primus": "*",
     "async": "~0.8.0",
-    "express": "4.2.x",
-    "winston": "git://github.com/flatiron/winston#master",
-    "bigpipe": "bigpipe/pagelet",
-    "plates": "https://github.com/flatiron/plates/tarball/master"
+    "express": "4.2.x"
   },
   "devDependencies": {
     "vows": "^0.7.0",
@@ -45,9 +25,7 @@
   },
   "preferGlobal": true,
   "private": true,
-  "publishConfig": {
-    "registry": "https://your-private-hosted-npm.registry.nodejitsu.com"
-  },
+
   "subdomain": "foobar",
   "analyze": true,
   "license": "MIT"
