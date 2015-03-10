@@ -1,0 +1,1220 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose install where, deps [ 'D:\\Projekte Backup\\__EIGENE\\HTML5 Days 2015\\Test\\WSTest',
+5 verbose install   [ 'primus',
+5 verbose install     'async',
+5 verbose install     'express',
+5 verbose install     'winston',
+5 verbose install     'bigpipe',
+5 verbose install     'plates',
+5 verbose install     'vows',
+5 verbose install     'assume',
+5 verbose install     'pre-commit' ] ]
+6 verbose install where, peers [ 'D:\\Projekte Backup\\__EIGENE\\HTML5 Days 2015\\Test\\WSTest',
+6 verbose install   [] ]
+7 info preinstall module-name@10.3.1
+8 silly cache add args [ 'winston@git://github.com/flatiron/winston#master', null ]
+9 verbose cache add spec winston@git://github.com/flatiron/winston#master
+10 silly cache add args [ 'bigpipe@git+https://github.com/bigpipe/pagelet', null ]
+11 verbose cache add spec bigpipe@git+https://github.com/bigpipe/pagelet
+12 silly cache add args [ 'plates@https://github.com/flatiron/plates/tarball/master',
+12 silly cache add   null ]
+13 verbose cache add spec plates@https://github.com/flatiron/plates/tarball/master
+14 silly cache add parsed spec { raw: 'winston@git://github.com/flatiron/winston#master',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'winston',
+14 silly cache add   rawSpec: 'git://github.com/flatiron/winston#master',
+14 silly cache add   spec: 'git://github.com/flatiron/winston#master',
+14 silly cache add   type: 'git' }
+15 verbose addRemoteGit u="git://github.com/flatiron/winston#master" silent=false
+16 silly addRemoteGit normalized { url: 'git://github.com/flatiron/winston', branch: 'master' }
+17 silly addRemoteGit v git-github-com-flatiron-winston-fcc3ea8a
+18 verbose addRemoteGit C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a not in flight; cloning
+19 silly cache add parsed spec { raw: 'bigpipe@git+https://github.com/bigpipe/pagelet',
+19 silly cache add   scope: null,
+19 silly cache add   name: 'bigpipe',
+19 silly cache add   rawSpec: 'git+https://github.com/bigpipe/pagelet',
+19 silly cache add   spec: 'https://github.com/bigpipe/pagelet',
+19 silly cache add   type: 'git' }
+20 verbose addRemoteGit u="https://github.com/bigpipe/pagelet" silent=false
+21 silly addRemoteGit normalized { url: 'https://github.com/bigpipe/pagelet', branch: 'master' }
+22 silly addRemoteGit v https-github-com-bigpipe-pagelet-c569f206
+23 verbose addRemoteGit C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\https-github-com-bigpipe-pagelet-c569f206 not in flight; cloning
+24 silly cache add args [ 'vows@^0.7.0', null ]
+25 verbose cache add spec vows@^0.7.0
+26 silly cache add parsed spec { raw: 'vows@^0.7.0',
+26 silly cache add   scope: null,
+26 silly cache add   name: 'vows',
+26 silly cache add   rawSpec: '^0.7.0',
+26 silly cache add   spec: '>=0.7.0 <0.8.0',
+26 silly cache add   type: 'range' }
+27 verbose addNamed vows@>=0.7.0 <0.8.0
+28 silly addNamed semver.valid null
+29 silly addNamed semver.validRange >=0.7.0 <0.8.0
+30 silly addNameRange { name: 'vows', range: '>=0.7.0 <0.8.0', hasData: false }
+31 silly mapToRegistry name vows
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/vows
+35 verbose addNameRange registry:https://registry.npmjs.org/vows not in flight; fetching
+36 silly cache add args [ 'assume@<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0', null ]
+37 verbose cache add spec assume@<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0
+38 silly cache add parsed spec { raw: 'assume@<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0',
+38 silly cache add   scope: null,
+38 silly cache add   name: 'assume',
+38 silly cache add   rawSpec: '<1.0.0 || >=2.3.1 <2.4.5 || >=2.5.2 <3.0.0',
+38 silly cache add   spec: '<1.0.0||>=2.3.1 <2.4.5||>=2.5.2 <3.0.0',
+38 silly cache add   type: 'range' }
+39 verbose addNamed assume@<1.0.0||>=2.3.1 <2.4.5||>=2.5.2 <3.0.0
+40 silly addNamed semver.valid null
+41 silly addNamed semver.validRange <1.0.0||>=2.3.1 <2.4.5||>=2.5.2 <3.0.0
+42 silly addNameRange { name: 'assume',
+42 silly addNameRange   range: '<1.0.0||>=2.3.1 <2.4.5||>=2.5.2 <3.0.0',
+42 silly addNameRange   hasData: false }
+43 silly mapToRegistry name assume
+44 silly mapToRegistry using default registry
+45 silly mapToRegistry registry https://registry.npmjs.org/
+46 silly mapToRegistry uri https://registry.npmjs.org/assume
+47 verbose addNameRange registry:https://registry.npmjs.org/assume not in flight; fetching
+48 silly cache add args [ 'pre-commit@*', null ]
+49 verbose cache add spec pre-commit@*
+50 silly cache add parsed spec { raw: 'pre-commit@*',
+50 silly cache add   scope: null,
+50 silly cache add   name: 'pre-commit',
+50 silly cache add   rawSpec: '*',
+50 silly cache add   spec: '*',
+50 silly cache add   type: 'range' }
+51 verbose addNamed pre-commit@*
+52 silly addNamed semver.valid null
+53 silly addNamed semver.validRange *
+54 silly addNameRange { name: 'pre-commit', range: '*', hasData: false }
+55 silly mapToRegistry name pre-commit
+56 silly mapToRegistry using default registry
+57 silly mapToRegistry registry https://registry.npmjs.org/
+58 silly mapToRegistry uri https://registry.npmjs.org/pre-commit
+59 verbose addNameRange registry:https://registry.npmjs.org/pre-commit not in flight; fetching
+60 silly cache add args [ 'primus@*', null ]
+61 verbose cache add spec primus@*
+62 silly cache add parsed spec { raw: 'primus@*',
+62 silly cache add   scope: null,
+62 silly cache add   name: 'primus',
+62 silly cache add   rawSpec: '*',
+62 silly cache add   spec: '*',
+62 silly cache add   type: 'range' }
+63 verbose addNamed primus@*
+64 silly addNamed semver.valid null
+65 silly addNamed semver.validRange *
+66 silly addNameRange { name: 'primus', range: '*', hasData: false }
+67 silly mapToRegistry name primus
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/primus
+71 verbose addNameRange registry:https://registry.npmjs.org/primus not in flight; fetching
+72 silly cache add args [ 'async@~0.8.0', null ]
+73 verbose cache add spec async@~0.8.0
+74 silly cache add parsed spec { raw: 'async@~0.8.0',
+74 silly cache add   scope: null,
+74 silly cache add   name: 'async',
+74 silly cache add   rawSpec: '~0.8.0',
+74 silly cache add   spec: '>=0.8.0 <0.9.0',
+74 silly cache add   type: 'range' }
+75 verbose addNamed async@>=0.8.0 <0.9.0
+76 silly addNamed semver.valid null
+77 silly addNamed semver.validRange >=0.8.0 <0.9.0
+78 silly addNameRange { name: 'async', range: '>=0.8.0 <0.9.0', hasData: false }
+79 silly mapToRegistry name async
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry uri https://registry.npmjs.org/async
+83 verbose addNameRange registry:https://registry.npmjs.org/async not in flight; fetching
+84 silly cache add args [ 'express@4.2.x', null ]
+85 verbose cache add spec express@4.2.x
+86 silly cache add parsed spec { raw: 'express@4.2.x',
+86 silly cache add   scope: null,
+86 silly cache add   name: 'express',
+86 silly cache add   rawSpec: '4.2.x',
+86 silly cache add   spec: '>=4.2.0 <4.3.0',
+86 silly cache add   type: 'range' }
+87 verbose addNamed express@>=4.2.0 <4.3.0
+88 silly addNamed semver.valid null
+89 silly addNamed semver.validRange >=4.2.0 <4.3.0
+90 silly addNameRange { name: 'express', range: '>=4.2.0 <4.3.0', hasData: false }
+91 silly mapToRegistry name express
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/express
+95 verbose addNameRange registry:https://registry.npmjs.org/express not in flight; fetching
+96 silly cache add parsed spec { raw: 'plates@https://github.com/flatiron/plates/tarball/master',
+96 silly cache add   scope: null,
+96 silly cache add   name: 'plates',
+96 silly cache add   rawSpec: 'https://github.com/flatiron/plates/tarball/master',
+96 silly cache add   spec: 'https://github.com/flatiron/plates/tarball/master',
+96 silly cache add   type: 'remote' }
+97 silly mapToRegistry name plates@https://github.com/flatiron/plates/tarball/master
+98 silly mapToRegistry using default registry
+99 silly mapToRegistry registry https://registry.npmjs.org/
+100 silly mapToRegistry uri https://registry.npmjs.org/plates@https://github.com/flatiron/plates/tarball/master
+101 verbose addRemoteTarball https://github.com/flatiron/plates/tarball/master not in flight; adding
+102 verbose addRemoteTarball [ 'https://github.com/flatiron/plates/tarball/master', null ]
+103 verbose request uri https://registry.npmjs.org/vows
+104 verbose request no auth needed
+105 info attempt registry request try #1 at 08:24:55
+106 verbose request id be39550131bbba3f
+107 http request GET https://registry.npmjs.org/vows
+108 verbose request uri https://registry.npmjs.org/assume
+109 verbose request no auth needed
+110 info attempt registry request try #1 at 08:24:55
+111 http request GET https://registry.npmjs.org/assume
+112 verbose request uri https://registry.npmjs.org/pre-commit
+113 verbose request no auth needed
+114 info attempt registry request try #1 at 08:24:55
+115 http request GET https://registry.npmjs.org/pre-commit
+116 verbose request uri https://registry.npmjs.org/primus
+117 verbose request no auth needed
+118 info attempt registry request try #1 at 08:24:55
+119 http request GET https://registry.npmjs.org/primus
+120 verbose request uri https://registry.npmjs.org/express
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 08:24:55
+123 http request GET https://registry.npmjs.org/express
+124 verbose request uri https://registry.npmjs.org/async
+125 verbose request no auth needed
+126 info attempt registry request try #1 at 08:24:55
+127 verbose etag "C5JIJWJLWNJBYN07ZJ7TJAU3C"
+128 http request GET https://registry.npmjs.org/async
+129 info retry fetch attempt 1 at 08:24:55
+130 info attempt registry request try #1 at 08:24:55
+131 http fetch GET https://github.com/flatiron/plates/tarball/master
+132 info git [ 'clone',
+132 info git   '--template=C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+132 info git   '--mirror',
+132 info git   'git://github.com/flatiron/winston',
+132 info git   'C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\_git-remotes\\git-github-com-flatiron-winston-fcc3ea8a' ]
+133 info git [ 'clone',
+133 info git   '--template=C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\_git-remotes\\_templates',
+133 info git   '--mirror',
+133 info git   'https://github.com/bigpipe/pagelet',
+133 info git   'C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\_git-remotes\\https-github-com-bigpipe-pagelet-c569f206' ]
+134 http 200 https://registry.npmjs.org/async
+135 silly get cb [ 200,
+135 silly get   { date: 'Tue, 10 Mar 2015 07:23:59 GMT',
+135 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+135 silly get     etag: '"1V5DWAO46H28YDSLQUUH87BRB"',
+135 silly get     'content-type': 'application/json',
+135 silly get     'cache-control': 'max-age=60',
+135 silly get     'content-length': '107884',
+135 silly get     'accept-ranges': 'bytes',
+135 silly get     via: '1.1 varnish',
+135 silly get     age: '18',
+135 silly get     'x-served-by': 'cache-fra1235-FRA',
+135 silly get     'x-cache': 'HIT',
+135 silly get     'x-cache-hits': '1',
+135 silly get     'x-timer': 'S1425972239.893190,VS0,VE0',
+135 silly get     vary: 'Accept',
+135 silly get     'keep-alive': 'timeout=10, max=50',
+135 silly get     connection: 'Keep-Alive' } ]
+136 verbose get saving async to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\async\.cache.json
+137 silly addNameRange number 2 { name: 'async', range: '>=0.8.0 <0.9.0', hasData: true }
+138 silly addNameRange versions [ 'async',
+138 silly addNameRange   [ '0.1.0',
+138 silly addNameRange     '0.1.1',
+138 silly addNameRange     '0.1.2',
+138 silly addNameRange     '0.1.3',
+138 silly addNameRange     '0.1.4',
+138 silly addNameRange     '0.1.5',
+138 silly addNameRange     '0.1.6',
+138 silly addNameRange     '0.1.7',
+138 silly addNameRange     '0.1.8',
+138 silly addNameRange     '0.1.9',
+138 silly addNameRange     '0.1.10',
+138 silly addNameRange     '0.1.11',
+138 silly addNameRange     '0.1.12',
+138 silly addNameRange     '0.1.13',
+138 silly addNameRange     '0.1.14',
+138 silly addNameRange     '0.1.15',
+138 silly addNameRange     '0.1.16',
+138 silly addNameRange     '0.1.17',
+138 silly addNameRange     '0.1.18',
+138 silly addNameRange     '0.1.19',
+138 silly addNameRange     '0.1.20',
+138 silly addNameRange     '0.1.21',
+138 silly addNameRange     '0.1.22',
+138 silly addNameRange     '0.2.0',
+138 silly addNameRange     '0.2.1',
+138 silly addNameRange     '0.2.2',
+138 silly addNameRange     '0.2.3',
+138 silly addNameRange     '0.2.4',
+138 silly addNameRange     '0.2.5',
+138 silly addNameRange     '0.2.6',
+138 silly addNameRange     '0.2.7',
+138 silly addNameRange     '0.2.8',
+138 silly addNameRange     '0.2.9',
+138 silly addNameRange     '0.2.10',
+138 silly addNameRange     '0.3.0',
+138 silly addNameRange     '0.4.0',
+138 silly addNameRange     '0.4.1',
+138 silly addNameRange     '0.5.0',
+138 silly addNameRange     '0.6.0',
+138 silly addNameRange     '0.6.1',
+138 silly addNameRange     '0.6.2',
+138 silly addNameRange     '0.7.0',
+138 silly addNameRange     '0.8.0',
+138 silly addNameRange     '0.9.0' ] ]
+139 verbose addNamed async@0.8.0
+140 silly addNamed semver.valid 0.8.0
+141 silly addNamed semver.validRange 0.8.0
+142 silly mapToRegistry name async
+143 silly mapToRegistry using default registry
+144 silly mapToRegistry registry https://registry.npmjs.org/
+145 silly mapToRegistry uri https://registry.npmjs.org/async
+146 verbose addRemoteTarball https://registry.npmjs.org/async/-/async-0.8.0.tgz not in flight; adding
+147 verbose addRemoteTarball [ 'https://registry.npmjs.org/async/-/async-0.8.0.tgz',
+147 verbose addRemoteTarball   'ee65ec77298c2ff1456bc4418a052d0f06435112' ]
+148 info retry fetch attempt 1 at 08:24:56
+149 info attempt registry request try #1 at 08:24:56
+150 http fetch GET https://registry.npmjs.org/async/-/async-0.8.0.tgz
+151 http fetch 200 https://registry.npmjs.org/async/-/async-0.8.0.tgz
+152 silly fetchAndShaCheck shasum ee65ec77298c2ff1456bc4418a052d0f06435112
+153 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\async\-\async-0.8.0.tgz not in flight; adding
+154 verbose addTmpTarball already have metadata; skipping unpack for async@0.8.0
+155 silly cache afterAdd async@0.8.0
+156 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\async\0.8.0\package\package.json not in flight; writing
+157 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\async\0.8.0\package\package.json written
+158 http 200 https://registry.npmjs.org/pre-commit
+159 silly get cb [ 200,
+159 silly get   { date: 'Tue, 10 Mar 2015 07:24:00 GMT',
+159 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+159 silly get     etag: '"1IIGP8CLTBCLI0NRFBHJ3YDEN"',
+159 silly get     'content-type': 'application/json',
+159 silly get     'cache-control': 'max-age=60',
+159 silly get     'content-length': '29098',
+159 silly get     'accept-ranges': 'bytes',
+159 silly get     via: '1.1 varnish',
+159 silly get     age: '0',
+159 silly get     'x-served-by': 'cache-fra1245-FRA',
+159 silly get     'x-cache': 'MISS',
+159 silly get     'x-cache-hits': '0',
+159 silly get     'x-timer': 'S1425972239.892409,VS0,VE408',
+159 silly get     vary: 'Accept',
+159 silly get     'keep-alive': 'timeout=10, max=50',
+159 silly get     connection: 'Keep-Alive' } ]
+160 verbose get saving pre-commit to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\pre-commit\.cache.json
+161 silly addNameRange number 2 { name: 'pre-commit', range: '*', hasData: true }
+162 silly addNameRange versions [ 'pre-commit',
+162 silly addNameRange   [ '0.0.0',
+162 silly addNameRange     '0.0.1',
+162 silly addNameRange     '0.0.2',
+162 silly addNameRange     '0.0.3',
+162 silly addNameRange     '0.0.4',
+162 silly addNameRange     '0.0.5',
+162 silly addNameRange     '0.0.6',
+162 silly addNameRange     '0.0.7',
+162 silly addNameRange     '0.0.8',
+162 silly addNameRange     '0.0.9',
+162 silly addNameRange     '0.0.10',
+162 silly addNameRange     '0.0.11',
+162 silly addNameRange     '1.0.0',
+162 silly addNameRange     '1.0.1',
+162 silly addNameRange     '1.0.2',
+162 silly addNameRange     '1.0.3',
+162 silly addNameRange     '1.0.4',
+162 silly addNameRange     '1.0.5',
+162 silly addNameRange     '1.0.6' ] ]
+163 verbose addNamed pre-commit@1.0.6
+164 silly addNamed semver.valid 1.0.6
+165 silly addNamed semver.validRange 1.0.6
+166 silly mapToRegistry name pre-commit
+167 silly mapToRegistry using default registry
+168 silly mapToRegistry registry https://registry.npmjs.org/
+169 silly mapToRegistry uri https://registry.npmjs.org/pre-commit
+170 verbose addRemoteTarball https://registry.npmjs.org/pre-commit/-/pre-commit-1.0.6.tgz not in flight; adding
+171 verbose addRemoteTarball [ 'https://registry.npmjs.org/pre-commit/-/pre-commit-1.0.6.tgz',
+171 verbose addRemoteTarball   'ca8d102c8f9e260895ead1aa10fcddeba1b945bb' ]
+172 http 200 https://registry.npmjs.org/primus
+173 silly get cb [ 200,
+173 silly get   { date: 'Tue, 10 Mar 2015 07:24:00 GMT',
+173 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+173 silly get     etag: '"3RQIG1G8KVS4XRD5I95HTMQSD"',
+173 silly get     'content-type': 'application/json',
+173 silly get     'cache-control': 'max-age=60',
+173 silly get     'content-length': '169811',
+173 silly get     'accept-ranges': 'bytes',
+173 silly get     via: '1.1 varnish',
+173 silly get     age: '0',
+173 silly get     'x-served-by': 'cache-fra1243-FRA',
+173 silly get     'x-cache': 'MISS',
+173 silly get     'x-cache-hits': '0',
+173 silly get     'x-timer': 'S1425972239.880296,VS0,VE381',
+173 silly get     vary: 'Accept',
+173 silly get     'keep-alive': 'timeout=10, max=50',
+173 silly get     connection: 'Keep-Alive' } ]
+174 verbose get saving primus to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\primus\.cache.json
+175 info retry fetch attempt 1 at 08:24:56
+176 info attempt registry request try #1 at 08:24:56
+177 http fetch GET https://registry.npmjs.org/pre-commit/-/pre-commit-1.0.6.tgz
+178 silly addNameRange number 2 { name: 'primus', range: '*', hasData: true }
+179 silly addNameRange versions [ 'primus',
+179 silly addNameRange   [ '0.0.0',
+179 silly addNameRange     '0.1.0',
+179 silly addNameRange     '1.0.0',
+179 silly addNameRange     '1.0.1',
+179 silly addNameRange     '1.1.0',
+179 silly addNameRange     '1.1.1',
+179 silly addNameRange     '1.1.2',
+179 silly addNameRange     '1.1.3',
+179 silly addNameRange     '1.1.4',
+179 silly addNameRange     '1.2.0',
+179 silly addNameRange     '1.3.0',
+179 silly addNameRange     '1.4.0',
+179 silly addNameRange     '1.4.1',
+179 silly addNameRange     '1.4.2',
+179 silly addNameRange     '1.4.3',
+179 silly addNameRange     '1.4.4',
+179 silly addNameRange     '1.4.5',
+179 silly addNameRange     '1.4.6',
+179 silly addNameRange     '1.4.7',
+179 silly addNameRange     '1.5.0',
+179 silly addNameRange     '1.5.1',
+179 silly addNameRange     '1.5.2',
+179 silly addNameRange     '2.0.0',
+179 silly addNameRange     '2.0.1',
+179 silly addNameRange     '2.0.2',
+179 silly addNameRange     '2.0.3',
+179 silly addNameRange     '2.0.4',
+179 silly addNameRange     '2.1.0',
+179 silly addNameRange     '2.1.1',
+179 silly addNameRange     '2.1.2',
+179 silly addNameRange     '2.1.3',
+179 silly addNameRange     '2.1.4',
+179 silly addNameRange     '2.1.5',
+179 silly addNameRange     '2.2.0',
+179 silly addNameRange     '2.2.1',
+179 silly addNameRange     '2.2.2',
+179 silly addNameRange     '2.2.3',
+179 silly addNameRange     '2.2.4',
+179 silly addNameRange     '2.3.0',
+179 silly addNameRange     '2.4.0',
+179 silly addNameRange     '2.4.1',
+179 silly addNameRange     '2.4.2',
+179 silly addNameRange     '2.4.3',
+179 silly addNameRange     '2.4.4',
+179 silly addNameRange     '2.4.5',
+179 silly addNameRange     '2.4.6',
+179 silly addNameRange     '2.4.7',
+179 silly addNameRange     '2.4.8',
+179 silly addNameRange     '2.4.9',
+179 silly addNameRange     '2.4.10',
+179 silly addNameRange     '2.4.11',
+179 silly addNameRange     '2.4.12' ] ]
+180 verbose addNamed primus@2.4.12
+181 silly addNamed semver.valid 2.4.12
+182 silly addNamed semver.validRange 2.4.12
+183 silly mapToRegistry name primus
+184 silly mapToRegistry using default registry
+185 silly mapToRegistry registry https://registry.npmjs.org/
+186 silly mapToRegistry uri https://registry.npmjs.org/primus
+187 verbose addRemoteTarball https://registry.npmjs.org/primus/-/primus-2.4.12.tgz not in flight; adding
+188 verbose addRemoteTarball [ 'https://registry.npmjs.org/primus/-/primus-2.4.12.tgz',
+188 verbose addRemoteTarball   '872d0e08cbbb6b8a5594363b4f2c314549cbbf3c' ]
+189 info retry fetch attempt 1 at 08:24:57
+190 info attempt registry request try #1 at 08:24:57
+191 http fetch GET https://registry.npmjs.org/primus/-/primus-2.4.12.tgz
+192 http 200 https://registry.npmjs.org/assume
+193 silly get cb [ 200,
+193 silly get   { date: 'Tue, 10 Mar 2015 07:24:00 GMT',
+193 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+193 silly get     etag: '"EOG5KDRR7TL00BS70Q97DT6EO"',
+193 silly get     'content-type': 'application/json',
+193 silly get     'cache-control': 'max-age=60',
+193 silly get     'content-length': '63289',
+193 silly get     'accept-ranges': 'bytes',
+193 silly get     via: '1.1 varnish',
+193 silly get     age: '0',
+193 silly get     'x-served-by': 'cache-fra1229-FRA',
+193 silly get     'x-cache': 'MISS',
+193 silly get     'x-cache-hits': '0',
+193 silly get     'x-timer': 'S1425972239.881840,VS0,VE499',
+193 silly get     vary: 'Accept',
+193 silly get     'keep-alive': 'timeout=10, max=50',
+193 silly get     connection: 'Keep-Alive' } ]
+194 verbose get saving assume to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\assume\.cache.json
+195 silly addNameRange number 2 { name: 'assume',
+195 silly addNameRange   range: '<1.0.0||>=2.3.1 <2.4.5||>=2.5.2 <3.0.0',
+195 silly addNameRange   hasData: true }
+196 silly addNameRange versions [ 'assume',
+196 silly addNameRange   [ '0.0.0',
+196 silly addNameRange     '0.0.1',
+196 silly addNameRange     '0.0.2',
+196 silly addNameRange     '0.0.3',
+196 silly addNameRange     '0.0.4',
+196 silly addNameRange     '0.0.5',
+196 silly addNameRange     '0.0.6',
+196 silly addNameRange     '0.0.7',
+196 silly addNameRange     '0.0.8',
+196 silly addNameRange     '0.0.9',
+196 silly addNameRange     '0.0.10',
+196 silly addNameRange     '0.0.11',
+196 silly addNameRange     '0.0.12',
+196 silly addNameRange     '0.0.13',
+196 silly addNameRange     '0.0.14',
+196 silly addNameRange     '0.0.15',
+196 silly addNameRange     '0.0.16',
+196 silly addNameRange     '0.0.17',
+196 silly addNameRange     '0.0.18',
+196 silly addNameRange     '1.0.0',
+196 silly addNameRange     '1.1.0',
+196 silly addNameRange     '1.1.1' ] ]
+197 verbose addNamed assume@0.0.18
+198 silly addNamed semver.valid 0.0.18
+199 silly addNamed semver.validRange 0.0.18
+200 silly mapToRegistry name assume
+201 silly mapToRegistry using default registry
+202 silly mapToRegistry registry https://registry.npmjs.org/
+203 silly mapToRegistry uri https://registry.npmjs.org/assume
+204 verbose addRemoteTarball https://registry.npmjs.org/assume/-/assume-0.0.18.tgz not in flight; adding
+205 verbose addRemoteTarball [ 'https://registry.npmjs.org/assume/-/assume-0.0.18.tgz',
+205 verbose addRemoteTarball   'd94bda9e7de1e9ef76ab1d528e4e6eeb3c6c07e9' ]
+206 info retry fetch attempt 1 at 08:24:57
+207 info attempt registry request try #1 at 08:24:57
+208 http fetch GET https://registry.npmjs.org/assume/-/assume-0.0.18.tgz
+209 http fetch 200 https://registry.npmjs.org/primus/-/primus-2.4.12.tgz
+210 silly fetchAndShaCheck shasum 872d0e08cbbb6b8a5594363b4f2c314549cbbf3c
+211 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\primus\-\primus-2.4.12.tgz not in flight; adding
+212 verbose addTmpTarball already have metadata; skipping unpack for primus@2.4.12
+213 silly cache afterAdd primus@2.4.12
+214 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\primus\2.4.12\package\package.json not in flight; writing
+215 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\primus\2.4.12\package\package.json written
+216 http 200 https://registry.npmjs.org/vows
+217 silly get cb [ 200,
+217 silly get   { date: 'Tue, 10 Mar 2015 07:24:00 GMT',
+217 silly get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+217 silly get     etag: '"71J91LFO9QA331VFLPDVBLQYU"',
+217 silly get     'content-type': 'application/json',
+217 silly get     'cache-control': 'max-age=60',
+217 silly get     'content-length': '34324',
+217 silly get     'accept-ranges': 'bytes',
+217 silly get     via: '1.1 varnish',
+217 silly get     age: '0',
+217 silly get     'x-served-by': 'cache-fra1223-FRA',
+217 silly get     'x-cache': 'HIT',
+217 silly get     'x-cache-hits': '1',
+217 silly get     'x-timer': 'S1425972239.891363,VS0,VE685',
+217 silly get     vary: 'Accept',
+217 silly get     'keep-alive': 'timeout=10, max=50',
+217 silly get     connection: 'Keep-Alive' } ]
+218 verbose get saving vows to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\vows\.cache.json
+219 silly addNameRange number 2 { name: 'vows', range: '>=0.7.0 <0.8.0', hasData: true }
+220 silly addNameRange versions [ 'vows',
+220 silly addNameRange   [ '0.2.5',
+220 silly addNameRange     '0.3.0',
+220 silly addNameRange     '0.3.1',
+220 silly addNameRange     '0.3.2',
+220 silly addNameRange     '0.3.3',
+220 silly addNameRange     '0.3.4',
+220 silly addNameRange     '0.3.5',
+220 silly addNameRange     '0.4.0',
+220 silly addNameRange     '0.4.1',
+220 silly addNameRange     '0.4.2',
+220 silly addNameRange     '0.4.3',
+220 silly addNameRange     '0.4.4',
+220 silly addNameRange     '0.4.5',
+220 silly addNameRange     '0.4.6',
+220 silly addNameRange     '0.5.0',
+220 silly addNameRange     '0.5.5',
+220 silly addNameRange     '0.5.6',
+220 silly addNameRange     '0.5.8',
+220 silly addNameRange     '0.5.9',
+220 silly addNameRange     '0.5.10',
+220 silly addNameRange     '0.5.11',
+220 silly addNameRange     '0.5.12',
+220 silly addNameRange     '0.5.13',
+220 silly addNameRange     '0.6.0',
+220 silly addNameRange     '0.6.1',
+220 silly addNameRange     '0.6.2',
+220 silly addNameRange     '0.6.3',
+220 silly addNameRange     '0.6.4',
+220 silly addNameRange     '0.7.0',
+220 silly addNameRange     '0.8.0',
+220 silly addNameRange     '0.8.1',
+220 silly addNameRange     '0.9.0-rc1',
+220 silly addNameRange     '0.9.0-rc2' ] ]
+221 verbose addNamed vows@0.7.0
+222 silly addNamed semver.valid 0.7.0
+223 silly addNamed semver.validRange 0.7.0
+224 silly mapToRegistry name vows
+225 silly mapToRegistry using default registry
+226 silly mapToRegistry registry https://registry.npmjs.org/
+227 silly mapToRegistry uri https://registry.npmjs.org/vows
+228 verbose addRemoteTarball https://registry.npmjs.org/vows/-/vows-0.7.0.tgz not in flight; adding
+229 verbose addRemoteTarball [ 'https://registry.npmjs.org/vows/-/vows-0.7.0.tgz',
+229 verbose addRemoteTarball   'dd0065f110ba0c0a6d63e844851c3208176d5867' ]
+230 info retry fetch attempt 1 at 08:24:57
+231 info attempt registry request try #1 at 08:24:57
+232 http fetch GET https://registry.npmjs.org/vows/-/vows-0.7.0.tgz
+233 http fetch 200 https://registry.npmjs.org/vows/-/vows-0.7.0.tgz
+234 http fetch 200 https://github.com/flatiron/plates/tarball/master
+235 silly fetchAndShaCheck shasum dd0065f110ba0c0a6d63e844851c3208176d5867
+236 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\vows\-\vows-0.7.0.tgz not in flight; adding
+237 verbose addTmpTarball already have metadata; skipping unpack for vows@0.7.0
+238 silly cache afterAdd vows@0.7.0
+239 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\vows\0.7.0\package\package.json not in flight; writing
+240 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\vows\0.7.0\package\package.json written
+241 http fetch 200 https://registry.npmjs.org/pre-commit/-/pre-commit-1.0.6.tgz
+242 silly fetchAndShaCheck shasum ca8d102c8f9e260895ead1aa10fcddeba1b945bb
+243 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\pre-commit\-\pre-commit-1.0.6.tgz not in flight; adding
+244 verbose addTmpTarball already have metadata; skipping unpack for pre-commit@1.0.6
+245 silly cache afterAdd pre-commit@1.0.6
+246 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pre-commit\1.0.6\package\package.json not in flight; writing
+247 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pre-commit\1.0.6\package\package.json written
+248 error git clone git://github.com/flatiron/winston Cloning into bare repository 'C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a'...
+248 error git clone git://github.com/flatiron/winston fatal: unable to connect to github.com:
+248 error git clone git://github.com/flatiron/winston github.com[0: 192.30.252.130]: errno=No error
+249 http fetch 200 https://registry.npmjs.org/assume/-/assume-0.0.18.tgz
+250 silly fetchAndShaCheck shasum d94bda9e7de1e9ef76ab1d528e4e6eeb3c6c07e9
+251 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\assume\-\assume-0.0.18.tgz not in flight; adding
+252 verbose addTmpTarball already have metadata; skipping unpack for assume@0.0.18
+253 silly cache afterAdd assume@0.0.18
+254 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\assume\0.0.18\package\package.json not in flight; writing
+255 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\assume\0.0.18\package\package.json written
+256 silly fetchAndShaCheck shasum 09ead5ccdecb839f6d734cf2d70a4cb5250e7db3
+257 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\github.com\flatiron\plates\tarball\master not in flight; adding
+258 verbose addTmpTarball validating metadata from C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\github.com\flatiron\plates\tarball\master
+259 verbose tar unpack C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\github.com\flatiron\plates\tarball\master
+260 verbose tar unpacking to C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\unpack-9f7f0149948c
+261 verbose gentlyRm vacuuming C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\unpack-9f7f0149948c
+262 silly gunzTarPerm modes [ '777', '666' ]
+263 silly gunzTarPerm extractEntry
+264 silly gunzTarPerm modified mode [ '', 509, 511 ]
+265 silly gunzTarPerm extractEntry .gitignore
+266 silly gunzTarPerm modified mode [ '.gitignore', 436, 438 ]
+267 silly gunzTarPerm extractEntry .travis.yml
+268 silly gunzTarPerm modified mode [ '.travis.yml', 436, 438 ]
+269 silly gunzTarPerm extractEntry LICENSE
+270 silly gunzTarPerm modified mode [ 'LICENSE', 436, 438 ]
+271 silly gunzTarPerm extractEntry README.md
+272 silly gunzTarPerm modified mode [ 'README.md', 436, 438 ]
+273 silly gunzTarPerm extractEntry examples/
+274 silly gunzTarPerm modified mode [ 'examples/', 509, 511 ]
+275 silly gunzTarPerm extractEntry examples/browser/
+276 silly gunzTarPerm modified mode [ 'examples/browser/', 509, 511 ]
+277 silly gunzTarPerm extractEntry examples/browser/index.js
+278 silly gunzTarPerm modified mode [ 'examples/browser/index.js', 436, 438 ]
+279 silly gunzTarPerm extractEntry examples/browser/plates.js
+280 silly gunzTarPerm modified mode [ 'examples/browser/plates.js', 436, 438 ]
+281 silly gunzTarPerm extractEntry lib/
+282 silly gunzTarPerm modified mode [ 'lib/', 509, 511 ]
+283 silly gunzTarPerm extractEntry lib/plates.js
+284 silly gunzTarPerm modified mode [ 'lib/plates.js', 436, 438 ]
+285 silly gunzTarPerm extractEntry package.json
+286 silly gunzTarPerm modified mode [ 'package.json', 436, 438 ]
+287 silly gunzTarPerm extractEntry plates.png
+288 silly gunzTarPerm modified mode [ 'plates.png', 436, 438 ]
+289 silly gunzTarPerm extractEntry test/
+290 silly gunzTarPerm modified mode [ 'test/', 509, 511 ]
+291 silly gunzTarPerm extractEntry test/api-test.js
+292 silly gunzTarPerm modified mode [ 'test/api-test.js', 436, 438 ]
+293 silly gunzTarPerm extractEntry test/browser.html
+294 silly gunzTarPerm modified mode [ 'test/browser.html', 436, 438 ]
+295 silly gunzTarPerm extractEntry test/browser.js
+296 silly gunzTarPerm modified mode [ 'test/browser.js', 436, 438 ]
+297 silly gunzTarPerm extractEntry test/common.js
+298 silly gunzTarPerm modified mode [ 'test/common.js', 436, 438 ]
+299 silly gunzTarPerm extractEntry test/fixtures/
+300 silly gunzTarPerm modified mode [ 'test/fixtures/', 509, 511 ]
+301 silly gunzTarPerm extractEntry test/fixtures/partial-1.html
+302 silly gunzTarPerm modified mode [ 'test/fixtures/partial-1.html', 436, 438 ]
+303 silly gunzTarPerm extractEntry test/fixtures/test-1.html
+304 silly gunzTarPerm modified mode [ 'test/fixtures/test-1.html', 436, 438 ]
+305 silly gunzTarPerm extractEntry test/fixtures/test-1.json
+306 silly gunzTarPerm modified mode [ 'test/fixtures/test-1.json', 436, 438 ]
+307 silly gunzTarPerm extractEntry test/fixtures/test-1.out
+308 silly gunzTarPerm modified mode [ 'test/fixtures/test-1.out', 436, 438 ]
+309 silly gunzTarPerm extractEntry test/fixtures/test-10.html
+310 silly gunzTarPerm modified mode [ 'test/fixtures/test-10.html', 436, 438 ]
+311 silly gunzTarPerm extractEntry test/fixtures/test-10.json
+312 silly gunzTarPerm modified mode [ 'test/fixtures/test-10.json', 436, 438 ]
+313 silly gunzTarPerm extractEntry test/fixtures/test-10.out
+314 silly gunzTarPerm modified mode [ 'test/fixtures/test-10.out', 436, 438 ]
+315 silly gunzTarPerm extractEntry test/fixtures/test-11.html
+316 silly gunzTarPerm modified mode [ 'test/fixtures/test-11.html', 436, 438 ]
+317 silly gunzTarPerm extractEntry test/fixtures/test-11.json
+318 silly gunzTarPerm modified mode [ 'test/fixtures/test-11.json', 436, 438 ]
+319 silly gunzTarPerm extractEntry test/fixtures/test-11.out
+320 silly gunzTarPerm modified mode [ 'test/fixtures/test-11.out', 436, 438 ]
+321 silly gunzTarPerm extractEntry test/fixtures/test-12.html
+322 silly gunzTarPerm modified mode [ 'test/fixtures/test-12.html', 436, 438 ]
+323 silly gunzTarPerm extractEntry test/fixtures/test-12.json
+324 silly gunzTarPerm modified mode [ 'test/fixtures/test-12.json', 436, 438 ]
+325 silly gunzTarPerm extractEntry test/fixtures/test-12.out
+326 silly gunzTarPerm modified mode [ 'test/fixtures/test-12.out', 436, 438 ]
+327 silly gunzTarPerm extractEntry test/fixtures/test-13.html
+328 silly gunzTarPerm modified mode [ 'test/fixtures/test-13.html', 436, 438 ]
+329 silly gunzTarPerm extractEntry test/fixtures/test-13.json
+330 silly gunzTarPerm modified mode [ 'test/fixtures/test-13.json', 436, 438 ]
+331 silly gunzTarPerm extractEntry test/fixtures/test-13.out
+332 silly gunzTarPerm modified mode [ 'test/fixtures/test-13.out', 436, 438 ]
+333 silly gunzTarPerm extractEntry test/fixtures/test-14.html
+334 silly gunzTarPerm modified mode [ 'test/fixtures/test-14.html', 436, 438 ]
+335 silly gunzTarPerm extractEntry test/fixtures/test-14.json
+336 silly gunzTarPerm modified mode [ 'test/fixtures/test-14.json', 436, 438 ]
+337 silly gunzTarPerm extractEntry test/fixtures/test-14.out
+338 silly gunzTarPerm modified mode [ 'test/fixtures/test-14.out', 436, 438 ]
+339 silly gunzTarPerm extractEntry test/fixtures/test-15.html
+340 silly gunzTarPerm modified mode [ 'test/fixtures/test-15.html', 436, 438 ]
+341 silly gunzTarPerm extractEntry test/fixtures/test-15.json
+342 silly gunzTarPerm modified mode [ 'test/fixtures/test-15.json', 436, 438 ]
+343 silly gunzTarPerm extractEntry test/fixtures/test-15.out
+344 silly gunzTarPerm modified mode [ 'test/fixtures/test-15.out', 436, 438 ]
+345 silly gunzTarPerm extractEntry test/fixtures/test-16.html
+346 silly gunzTarPerm modified mode [ 'test/fixtures/test-16.html', 436, 438 ]
+347 silly gunzTarPerm extractEntry test/fixtures/test-16.json
+348 silly gunzTarPerm modified mode [ 'test/fixtures/test-16.json', 436, 438 ]
+349 silly gunzTarPerm extractEntry test/fixtures/test-16.out
+350 silly gunzTarPerm modified mode [ 'test/fixtures/test-16.out', 436, 438 ]
+351 silly gunzTarPerm extractEntry test/fixtures/test-17.html
+352 silly gunzTarPerm modified mode [ 'test/fixtures/test-17.html', 436, 438 ]
+353 silly gunzTarPerm extractEntry test/fixtures/test-17.json
+354 silly gunzTarPerm modified mode [ 'test/fixtures/test-17.json', 436, 438 ]
+355 silly gunzTarPerm extractEntry test/fixtures/test-17.out
+356 silly gunzTarPerm modified mode [ 'test/fixtures/test-17.out', 436, 438 ]
+357 silly gunzTarPerm extractEntry test/fixtures/test-18.html
+358 silly gunzTarPerm modified mode [ 'test/fixtures/test-18.html', 436, 438 ]
+359 silly gunzTarPerm extractEntry test/fixtures/test-18.json
+360 silly gunzTarPerm modified mode [ 'test/fixtures/test-18.json', 436, 438 ]
+361 silly gunzTarPerm extractEntry test/fixtures/test-18.out
+362 silly gunzTarPerm modified mode [ 'test/fixtures/test-18.out', 436, 438 ]
+363 silly gunzTarPerm extractEntry test/fixtures/test-19.html
+364 silly gunzTarPerm modified mode [ 'test/fixtures/test-19.html', 436, 438 ]
+365 silly gunzTarPerm extractEntry test/fixtures/test-19.json
+366 silly gunzTarPerm modified mode [ 'test/fixtures/test-19.json', 436, 438 ]
+367 silly gunzTarPerm extractEntry test/fixtures/test-19.out
+368 silly gunzTarPerm modified mode [ 'test/fixtures/test-19.out', 436, 438 ]
+369 silly gunzTarPerm extractEntry test/fixtures/test-2.html
+370 silly gunzTarPerm modified mode [ 'test/fixtures/test-2.html', 436, 438 ]
+371 silly gunzTarPerm extractEntry test/fixtures/test-2.json
+372 silly gunzTarPerm modified mode [ 'test/fixtures/test-2.json', 436, 438 ]
+373 silly gunzTarPerm extractEntry test/fixtures/test-2.out
+374 silly gunzTarPerm modified mode [ 'test/fixtures/test-2.out', 436, 438 ]
+375 silly gunzTarPerm extractEntry test/fixtures/test-20.html
+376 silly gunzTarPerm modified mode [ 'test/fixtures/test-20.html', 436, 438 ]
+377 silly gunzTarPerm extractEntry test/fixtures/test-20.json
+378 silly gunzTarPerm modified mode [ 'test/fixtures/test-20.json', 436, 438 ]
+379 silly gunzTarPerm extractEntry test/fixtures/test-20.out
+380 silly gunzTarPerm modified mode [ 'test/fixtures/test-20.out', 436, 438 ]
+381 silly gunzTarPerm extractEntry test/fixtures/test-21.html
+382 silly gunzTarPerm modified mode [ 'test/fixtures/test-21.html', 436, 438 ]
+383 silly gunzTarPerm extractEntry test/fixtures/test-21.json
+384 silly gunzTarPerm modified mode [ 'test/fixtures/test-21.json', 436, 438 ]
+385 silly gunzTarPerm extractEntry test/fixtures/test-21.out
+386 silly gunzTarPerm modified mode [ 'test/fixtures/test-21.out', 436, 438 ]
+387 silly gunzTarPerm extractEntry test/fixtures/test-22.html
+388 silly gunzTarPerm modified mode [ 'test/fixtures/test-22.html', 436, 438 ]
+389 silly gunzTarPerm extractEntry test/fixtures/test-22.json
+390 silly gunzTarPerm modified mode [ 'test/fixtures/test-22.json', 436, 438 ]
+391 silly gunzTarPerm extractEntry test/fixtures/test-22.out
+392 silly gunzTarPerm modified mode [ 'test/fixtures/test-22.out', 436, 438 ]
+393 silly gunzTarPerm extractEntry test/fixtures/test-23.html
+394 silly gunzTarPerm modified mode [ 'test/fixtures/test-23.html', 436, 438 ]
+395 silly gunzTarPerm extractEntry test/fixtures/test-23.json
+396 silly gunzTarPerm modified mode [ 'test/fixtures/test-23.json', 436, 438 ]
+397 silly gunzTarPerm extractEntry test/fixtures/test-23.out
+398 silly gunzTarPerm modified mode [ 'test/fixtures/test-23.out', 436, 438 ]
+399 silly gunzTarPerm extractEntry test/fixtures/test-24.html
+400 silly gunzTarPerm modified mode [ 'test/fixtures/test-24.html', 436, 438 ]
+401 silly gunzTarPerm extractEntry test/fixtures/test-24.json
+402 silly gunzTarPerm modified mode [ 'test/fixtures/test-24.json', 436, 438 ]
+403 silly gunzTarPerm extractEntry test/fixtures/test-24.out
+404 silly gunzTarPerm modified mode [ 'test/fixtures/test-24.out', 436, 438 ]
+405 silly gunzTarPerm extractEntry test/fixtures/test-25.html
+406 silly gunzTarPerm modified mode [ 'test/fixtures/test-25.html', 436, 438 ]
+407 silly gunzTarPerm extractEntry test/fixtures/test-25.json
+408 silly gunzTarPerm modified mode [ 'test/fixtures/test-25.json', 436, 438 ]
+409 silly gunzTarPerm extractEntry test/fixtures/test-25.out
+410 silly gunzTarPerm modified mode [ 'test/fixtures/test-25.out', 436, 438 ]
+411 silly gunzTarPerm extractEntry test/fixtures/test-26.html
+412 silly gunzTarPerm modified mode [ 'test/fixtures/test-26.html', 436, 438 ]
+413 silly gunzTarPerm extractEntry test/fixtures/test-26.json
+414 silly gunzTarPerm modified mode [ 'test/fixtures/test-26.json', 436, 438 ]
+415 silly gunzTarPerm extractEntry test/fixtures/test-26.out
+416 silly gunzTarPerm modified mode [ 'test/fixtures/test-26.out', 436, 438 ]
+417 silly gunzTarPerm extractEntry test/fixtures/test-27.html
+418 silly gunzTarPerm modified mode [ 'test/fixtures/test-27.html', 436, 438 ]
+419 silly gunzTarPerm extractEntry test/fixtures/test-27.json
+420 silly gunzTarPerm modified mode [ 'test/fixtures/test-27.json', 436, 438 ]
+421 silly gunzTarPerm extractEntry test/fixtures/test-27.out
+422 silly gunzTarPerm modified mode [ 'test/fixtures/test-27.out', 436, 438 ]
+423 silly gunzTarPerm extractEntry test/fixtures/test-28.html
+424 silly gunzTarPerm modified mode [ 'test/fixtures/test-28.html', 436, 438 ]
+425 silly gunzTarPerm extractEntry test/fixtures/test-28.json
+426 silly gunzTarPerm modified mode [ 'test/fixtures/test-28.json', 436, 438 ]
+427 silly gunzTarPerm extractEntry test/fixtures/test-28.out
+428 silly gunzTarPerm modified mode [ 'test/fixtures/test-28.out', 436, 438 ]
+429 silly gunzTarPerm extractEntry test/fixtures/test-29.html
+430 silly gunzTarPerm modified mode [ 'test/fixtures/test-29.html', 436, 438 ]
+431 silly gunzTarPerm extractEntry test/fixtures/test-29.json
+432 silly gunzTarPerm modified mode [ 'test/fixtures/test-29.json', 436, 438 ]
+433 silly gunzTarPerm extractEntry test/fixtures/test-29.out
+434 silly gunzTarPerm modified mode [ 'test/fixtures/test-29.out', 436, 438 ]
+435 silly gunzTarPerm extractEntry test/fixtures/test-3.html
+436 silly gunzTarPerm modified mode [ 'test/fixtures/test-3.html', 436, 438 ]
+437 silly gunzTarPerm extractEntry test/fixtures/test-3.json
+438 silly gunzTarPerm modified mode [ 'test/fixtures/test-3.json', 436, 438 ]
+439 silly gunzTarPerm extractEntry test/fixtures/test-3.out
+440 silly gunzTarPerm modified mode [ 'test/fixtures/test-3.out', 436, 438 ]
+441 silly gunzTarPerm extractEntry test/fixtures/test-30.html
+442 silly gunzTarPerm modified mode [ 'test/fixtures/test-30.html', 436, 438 ]
+443 silly gunzTarPerm extractEntry test/fixtures/test-30.json
+444 silly gunzTarPerm modified mode [ 'test/fixtures/test-30.json', 436, 438 ]
+445 silly gunzTarPerm extractEntry test/fixtures/test-30.out
+446 silly gunzTarPerm modified mode [ 'test/fixtures/test-30.out', 436, 438 ]
+447 silly gunzTarPerm extractEntry test/fixtures/test-31.html
+448 silly gunzTarPerm modified mode [ 'test/fixtures/test-31.html', 436, 438 ]
+449 silly gunzTarPerm extractEntry test/fixtures/test-31.json
+450 silly gunzTarPerm modified mode [ 'test/fixtures/test-31.json', 436, 438 ]
+451 silly gunzTarPerm extractEntry test/fixtures/test-31.out
+452 silly gunzTarPerm modified mode [ 'test/fixtures/test-31.out', 436, 438 ]
+453 silly gunzTarPerm extractEntry test/fixtures/test-32.html
+454 silly gunzTarPerm modified mode [ 'test/fixtures/test-32.html', 436, 438 ]
+455 silly gunzTarPerm extractEntry test/fixtures/test-32.json
+456 silly gunzTarPerm modified mode [ 'test/fixtures/test-32.json', 436, 438 ]
+457 silly gunzTarPerm extractEntry test/fixtures/test-32.out
+458 silly gunzTarPerm modified mode [ 'test/fixtures/test-32.out', 436, 438 ]
+459 silly gunzTarPerm extractEntry test/fixtures/test-34.html
+460 silly gunzTarPerm modified mode [ 'test/fixtures/test-34.html', 436, 438 ]
+461 silly gunzTarPerm extractEntry test/fixtures/test-34.json
+462 silly gunzTarPerm modified mode [ 'test/fixtures/test-34.json', 436, 438 ]
+463 silly gunzTarPerm extractEntry test/fixtures/test-34.out
+464 silly gunzTarPerm modified mode [ 'test/fixtures/test-34.out', 436, 438 ]
+465 silly gunzTarPerm extractEntry test/fixtures/test-35.html
+466 silly gunzTarPerm modified mode [ 'test/fixtures/test-35.html', 436, 438 ]
+467 silly gunzTarPerm extractEntry test/fixtures/test-35.json
+468 silly gunzTarPerm modified mode [ 'test/fixtures/test-35.json', 436, 438 ]
+469 silly gunzTarPerm extractEntry test/fixtures/test-35.out
+470 silly gunzTarPerm modified mode [ 'test/fixtures/test-35.out', 436, 438 ]
+471 silly gunzTarPerm extractEntry test/fixtures/test-36.html
+472 silly gunzTarPerm modified mode [ 'test/fixtures/test-36.html', 436, 438 ]
+473 silly gunzTarPerm extractEntry test/fixtures/test-36.json
+474 silly gunzTarPerm modified mode [ 'test/fixtures/test-36.json', 436, 438 ]
+475 silly gunzTarPerm extractEntry test/fixtures/test-36.out
+476 silly gunzTarPerm modified mode [ 'test/fixtures/test-36.out', 436, 438 ]
+477 silly gunzTarPerm extractEntry test/fixtures/test-37.html
+478 silly gunzTarPerm modified mode [ 'test/fixtures/test-37.html', 436, 438 ]
+479 silly gunzTarPerm extractEntry test/fixtures/test-37.json
+480 silly gunzTarPerm modified mode [ 'test/fixtures/test-37.json', 436, 438 ]
+481 silly gunzTarPerm extractEntry test/fixtures/test-37.out
+482 silly gunzTarPerm modified mode [ 'test/fixtures/test-37.out', 436, 438 ]
+483 silly gunzTarPerm extractEntry test/fixtures/test-38.html
+484 silly gunzTarPerm modified mode [ 'test/fixtures/test-38.html', 436, 438 ]
+485 silly gunzTarPerm extractEntry test/fixtures/test-38.json
+486 silly gunzTarPerm modified mode [ 'test/fixtures/test-38.json', 436, 438 ]
+487 silly gunzTarPerm extractEntry test/fixtures/test-38.out
+488 silly gunzTarPerm modified mode [ 'test/fixtures/test-38.out', 436, 438 ]
+489 silly gunzTarPerm extractEntry test/fixtures/test-39.html
+490 silly gunzTarPerm modified mode [ 'test/fixtures/test-39.html', 436, 438 ]
+491 silly gunzTarPerm extractEntry test/fixtures/test-39.json
+492 silly gunzTarPerm modified mode [ 'test/fixtures/test-39.json', 436, 438 ]
+493 silly gunzTarPerm extractEntry test/fixtures/test-39.out
+494 silly gunzTarPerm modified mode [ 'test/fixtures/test-39.out', 436, 438 ]
+495 silly gunzTarPerm extractEntry test/fixtures/test-4.html
+496 silly gunzTarPerm modified mode [ 'test/fixtures/test-4.html', 436, 438 ]
+497 silly gunzTarPerm extractEntry test/fixtures/test-4.json
+498 silly gunzTarPerm modified mode [ 'test/fixtures/test-4.json', 436, 438 ]
+499 silly gunzTarPerm extractEntry test/fixtures/test-4.out
+500 silly gunzTarPerm modified mode [ 'test/fixtures/test-4.out', 436, 438 ]
+501 silly gunzTarPerm extractEntry test/fixtures/test-40.html
+502 silly gunzTarPerm modified mode [ 'test/fixtures/test-40.html', 436, 438 ]
+503 silly gunzTarPerm extractEntry test/fixtures/test-40.json
+504 silly gunzTarPerm modified mode [ 'test/fixtures/test-40.json', 436, 438 ]
+505 silly gunzTarPerm extractEntry test/fixtures/test-40.out
+506 silly gunzTarPerm modified mode [ 'test/fixtures/test-40.out', 436, 438 ]
+507 silly gunzTarPerm extractEntry test/fixtures/test-41.html
+508 silly gunzTarPerm modified mode [ 'test/fixtures/test-41.html', 436, 438 ]
+509 silly gunzTarPerm extractEntry test/fixtures/test-41.json
+510 silly gunzTarPerm modified mode [ 'test/fixtures/test-41.json', 436, 438 ]
+511 silly gunzTarPerm extractEntry test/fixtures/test-41.out
+512 silly gunzTarPerm modified mode [ 'test/fixtures/test-41.out', 436, 438 ]
+513 silly gunzTarPerm extractEntry test/fixtures/test-42.html
+514 silly gunzTarPerm modified mode [ 'test/fixtures/test-42.html', 436, 438 ]
+515 silly gunzTarPerm extractEntry test/fixtures/test-42.json
+516 silly gunzTarPerm modified mode [ 'test/fixtures/test-42.json', 436, 438 ]
+517 silly gunzTarPerm extractEntry test/fixtures/test-42.out
+518 silly gunzTarPerm modified mode [ 'test/fixtures/test-42.out', 436, 438 ]
+519 silly gunzTarPerm extractEntry test/fixtures/test-43.html
+520 silly gunzTarPerm modified mode [ 'test/fixtures/test-43.html', 436, 438 ]
+521 silly gunzTarPerm extractEntry test/fixtures/test-43.json
+522 silly gunzTarPerm modified mode [ 'test/fixtures/test-43.json', 436, 438 ]
+523 silly gunzTarPerm extractEntry test/fixtures/test-43.out
+524 silly gunzTarPerm modified mode [ 'test/fixtures/test-43.out', 436, 438 ]
+525 silly gunzTarPerm extractEntry test/fixtures/test-5.html
+526 silly gunzTarPerm modified mode [ 'test/fixtures/test-5.html', 436, 438 ]
+527 silly gunzTarPerm extractEntry test/fixtures/test-5.json
+528 silly gunzTarPerm modified mode [ 'test/fixtures/test-5.json', 436, 438 ]
+529 silly gunzTarPerm extractEntry test/fixtures/test-5.out
+530 silly gunzTarPerm modified mode [ 'test/fixtures/test-5.out', 436, 438 ]
+531 silly gunzTarPerm extractEntry test/fixtures/test-6.html
+532 silly gunzTarPerm modified mode [ 'test/fixtures/test-6.html', 436, 438 ]
+533 silly gunzTarPerm extractEntry test/fixtures/test-6.json
+534 silly gunzTarPerm modified mode [ 'test/fixtures/test-6.json', 436, 438 ]
+535 silly gunzTarPerm extractEntry test/fixtures/test-6.out
+536 silly gunzTarPerm modified mode [ 'test/fixtures/test-6.out', 436, 438 ]
+537 silly gunzTarPerm extractEntry test/fixtures/test-7.html
+538 silly gunzTarPerm modified mode [ 'test/fixtures/test-7.html', 436, 438 ]
+539 silly gunzTarPerm extractEntry test/fixtures/test-7.json
+540 silly gunzTarPerm modified mode [ 'test/fixtures/test-7.json', 436, 438 ]
+541 silly gunzTarPerm extractEntry test/fixtures/test-7.out
+542 silly gunzTarPerm modified mode [ 'test/fixtures/test-7.out', 436, 438 ]
+543 silly gunzTarPerm extractEntry test/fixtures/test-8.html
+544 silly gunzTarPerm modified mode [ 'test/fixtures/test-8.html', 436, 438 ]
+545 silly gunzTarPerm extractEntry test/fixtures/test-8.json
+546 silly gunzTarPerm modified mode [ 'test/fixtures/test-8.json', 436, 438 ]
+547 silly gunzTarPerm extractEntry test/fixtures/test-8.out
+548 silly gunzTarPerm modified mode [ 'test/fixtures/test-8.out', 436, 438 ]
+549 silly gunzTarPerm extractEntry test/fixtures/test-9.html
+550 silly gunzTarPerm modified mode [ 'test/fixtures/test-9.html', 436, 438 ]
+551 silly gunzTarPerm extractEntry test/fixtures/test-9.json
+552 silly gunzTarPerm modified mode [ 'test/fixtures/test-9.json', 436, 438 ]
+553 silly gunzTarPerm extractEntry test/fixtures/test-9.out
+554 silly gunzTarPerm modified mode [ 'test/fixtures/test-9.out', 436, 438 ]
+555 silly gunzTarPerm extractEntry test/match-closing-test.js
+556 silly gunzTarPerm modified mode [ 'test/match-closing-test.js', 436, 438 ]
+557 silly gunzTarPerm extractEntry test/perf-test.js
+558 silly gunzTarPerm modified mode [ 'test/perf-test.js', 436, 438 ]
+559 verbose git clone https://github.com/bigpipe/pagelet Cloning into bare repository 'C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\https-github-com-bigpipe-pagelet-c569f206'...
+560 info git [ 'fetch', '-a', 'origin' ]
+561 silly cache afterAdd plates@0.4.11
+562 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\plates\0.4.11\package\package.json not in flight; writing
+563 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\plates\0.4.11\package\package.json written
+564 http 200 https://registry.npmjs.org/express
+565 silly get cb [ 200,
+565 silly get   { date: 'Tue, 10 Mar 2015 07:24:02 GMT',
+565 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+565 silly get     etag: '"DYPEG1YNOEKCDHPNEZX8VEWYM"',
+565 silly get     'content-type': 'application/json',
+565 silly get     'cache-control': 'max-age=60',
+565 silly get     'content-length': '485821',
+565 silly get     'accept-ranges': 'bytes',
+565 silly get     via: '1.1 varnish',
+565 silly get     age: '40',
+565 silly get     'x-served-by': 'cache-fra1243-FRA',
+565 silly get     'x-cache': 'HIT',
+565 silly get     'x-cache-hits': '1',
+565 silly get     'x-timer': 'S1425972242.649363,VS0,VE2',
+565 silly get     vary: 'Accept',
+565 silly get     'keep-alive': 'timeout=10, max=50',
+565 silly get     connection: 'Keep-Alive' } ]
+566 verbose get saving express to C:\Users\Guido Bothe\AppData\Roaming\npm-cache\registry.npmjs.org\express\.cache.json
+567 silly addNameRange number 2 { name: 'express', range: '>=4.2.0 <4.3.0', hasData: true }
+568 silly addNameRange versions [ 'express',
+568 silly addNameRange   [ '0.14.0',
+568 silly addNameRange     '0.14.1',
+568 silly addNameRange     '1.0.0',
+568 silly addNameRange     '1.0.1',
+568 silly addNameRange     '1.0.2',
+568 silly addNameRange     '1.0.3',
+568 silly addNameRange     '1.0.4',
+568 silly addNameRange     '1.0.5',
+568 silly addNameRange     '1.0.6',
+568 silly addNameRange     '1.0.7',
+568 silly addNameRange     '1.0.8',
+568 silly addNameRange     '2.0.0',
+568 silly addNameRange     '2.1.0',
+568 silly addNameRange     '2.1.1',
+568 silly addNameRange     '2.2.0',
+568 silly addNameRange     '2.2.1',
+568 silly addNameRange     '2.2.2',
+568 silly addNameRange     '2.3.0',
+568 silly addNameRange     '2.3.1',
+568 silly addNameRange     '2.3.2',
+568 silly addNameRange     '2.3.3',
+568 silly addNameRange     '2.3.4',
+568 silly addNameRange     '2.3.5',
+568 silly addNameRange     '2.3.6',
+568 silly addNameRange     '2.3.7',
+568 silly addNameRange     '2.3.8',
+568 silly addNameRange     '2.3.9',
+568 silly addNameRange     '2.3.10',
+568 silly addNameRange     '2.3.11',
+568 silly addNameRange     '2.3.12',
+568 silly addNameRange     '2.4.0',
+568 silly addNameRange     '2.4.1',
+568 silly addNameRange     '2.4.2',
+568 silly addNameRange     '2.4.3',
+568 silly addNameRange     '2.4.4',
+568 silly addNameRange     '2.4.5',
+568 silly addNameRange     '2.4.6',
+568 silly addNameRange     '2.4.7',
+568 silly addNameRange     '2.5.0',
+568 silly addNameRange     '2.5.1',
+568 silly addNameRange     '2.5.2',
+568 silly addNameRange     '2.5.3',
+568 silly addNameRange     '2.5.4',
+568 silly addNameRange     '2.5.5',
+568 silly addNameRange     '2.5.6',
+568 silly addNameRange     '2.5.7',
+568 silly addNameRange     '2.5.8',
+568 silly addNameRange     '2.5.9',
+568 silly addNameRange     '2.5.10',
+568 silly addNameRange     '2.5.11',
+568 silly addNameRange     '3.0.0',
+568 silly addNameRange     '3.0.1',
+568 silly addNameRange     '3.0.2',
+568 silly addNameRange     '3.0.3',
+568 silly addNameRange     '3.0.4',
+568 silly addNameRange     '3.0.5',
+568 silly addNameRange     '3.0.6',
+568 silly addNameRange     '3.1.0',
+568 silly addNameRange     '3.1.1',
+568 silly addNameRange     '3.1.2',
+568 silly addNameRange     '3.2.0',
+568 silly addNameRange     '3.2.1',
+568 silly addNameRange     '3.2.2',
+568 silly addNameRange     '3.2.3',
+568 silly addNameRange     '3.2.4',
+568 silly addNameRange     '3.2.5',
+568 silly addNameRange     '3.2.6',
+568 silly addNameRange     '3.3.0',
+568 silly addNameRange     '3.3.1',
+568 silly addNameRange     '3.3.2',
+568 silly addNameRange     '3.3.3',
+568 silly addNameRange     '3.3.4',
+568 silly addNameRange     '3.3.5',
+568 silly addNameRange     '3.3.6',
+568 silly addNameRange     '1.0.0-beta',
+568 silly addNameRange     '1.0.0-beta2',
+568 silly addNameRange     '1.0.0-rc',
+568 silly addNameRange     '1.0.0-rc2',
+568 silly addNameRange     '1.0.0-rc3',
+568 silly addNameRange     '1.0.0-rc4',
+568 silly addNameRange     '2.0.0-beta',
+568 silly addNameRange     '2.0.0-beta2',
+568 silly addNameRange     '2.0.0-beta3',
+568 silly addNameRange     '2.0.0-rc',
+568 silly addNameRange     '2.0.0-rc2',
+568 silly addNameRange     '2.0.0-rc3',
+568 silly addNameRange     '3.0.0-alpha1',
+568 silly addNameRange     '3.0.0-alpha2',
+568 silly addNameRange     '3.0.0-alpha3',
+568 silly addNameRange     '3.0.0-alpha4',
+568 silly addNameRange     '3.0.0-alpha5',
+568 silly addNameRange     '3.0.0-beta1',
+568 silly addNameRange     '3.0.0-beta2',
+568 silly addNameRange     '3.0.0-beta3',
+568 silly addNameRange     '3.0.0-beta4',
+568 silly addNameRange     '3.0.0-beta6',
+568 silly addNameRange     '3.0.0-beta7',
+568 silly addNameRange     '3.0.0-rc1',
+568 silly addNameRange     '3.0.0-rc2',
+568 silly addNameRange     '3.0.0-rc3',
+568 silly addNameRange     '3.0.0-rc4',
+568 silly addNameRange     '3.0.0-rc5',
+568 silly addNameRange     '3.3.7',
+568 silly addNameRange     '3.3.8',
+568 silly addNameRange     '3.4.0',
+568 silly addNameRange     '3.4.1',
+568 silly addNameRange     '3.4.2',
+568 silly addNameRange     '3.4.3',
+568 silly addNameRange     '3.4.4',
+568 silly addNameRange     '3.4.5',
+568 silly addNameRange     '3.4.6',
+568 silly addNameRange     '3.4.7',
+568 silly addNameRange     '3.4.8',
+568 silly addNameRange     '4.0.0-rc1',
+568 silly addNameRange     '4.0.0-rc2',
+568 silly addNameRange     '3.5.0',
+568 silly addNameRange     '4.0.0-rc3',
+568 silly addNameRange     '4.0.0-rc4',
+568 silly addNameRange     '3.5.1',
+568 silly addNameRange     '4.0.0',
+568 silly addNameRange     '3.5.2',
+568 silly addNameRange     '4.1.0',
+568 silly addNameRange     '4.1.1',
+568 silly addNameRange     '3.5.3',
+568 silly addNameRange     '4.1.2',
+568 silly addNameRange     '3.6.0',
+568 silly addNameRange     '4.2.0',
+568 silly addNameRange     '3.7.0',
+568 silly addNameRange     '3.8.0',
+568 silly addNameRange     '4.3.0',
+568 silly addNameRange     '4.3.1',
+568 silly addNameRange     '3.8.1',
+568 silly addNameRange     '4.3.2',
+568 silly addNameRange     '3.9.0',
+568 silly addNameRange     '4.4.0',
+568 silly addNameRange     '4.4.1',
+568 silly addNameRange     '3.10.0',
+568 silly addNameRange     '3.10.1',
+568 silly addNameRange     '3.10.2',
+568 silly addNameRange     '3.10.3',
+568 silly addNameRange     '3.10.4',
+568 silly addNameRange     '4.4.2',
+568 silly addNameRange     '3.10.5',
+568 silly addNameRange     '4.4.3',
+568 silly addNameRange     '3.11.0',
+568 silly addNameRange     '4.4.4',
+568 silly addNameRange     '3.12.0',
+568 silly addNameRange     '3.12.1',
+568 silly addNameRange     '4.4.5',
+568 silly addNameRange     '3.13.0',
+568 silly addNameRange     '4.5.0',
+568 silly addNameRange     '4.5.1',
+568 silly addNameRange     '3.14.0',
+568 silly addNameRange     '4.6.0',
+568 silly addNameRange     '4.6.1',
+568 silly addNameRange     '3.15.0',
+568 silly addNameRange     '4.7.0',
+568 silly addNameRange     '3.15.1',
+568 silly addNameRange     '4.7.1',
+568 silly addNameRange     '3.15.2',
+568 silly addNameRange     '4.7.2',
+568 silly addNameRange     '4.7.3',
+568 silly addNameRange     '3.15.3',
+568 silly addNameRange     '4.7.4',
+568 silly addNameRange     '3.16.0',
+568 silly addNameRange     '4.8.0',
+568 silly addNameRange     '3.16.1',
+568 silly addNameRange     '4.8.1',
+568 silly addNameRange     '3.16.2',
+568 silly addNameRange     '4.8.2',
+568 silly addNameRange     '3.16.3',
+568 silly addNameRange     '3.16.4',
+568 silly addNameRange     '4.8.3',
+568 silly addNameRange     '3.16.5',
+568 silly addNameRange     '3.16.6',
+568 silly addNameRange     '4.8.4',
+568 silly addNameRange     '3.16.7',
+568 silly addNameRange     '4.8.5',
+568 silly addNameRange     '3.16.8',
+568 silly addNameRange     '4.8.6',
+568 silly addNameRange     '3.16.9',
+568 silly addNameRange     '4.8.7',
+568 silly addNameRange     '3.16.10',
+568 silly addNameRange     '4.8.8',
+568 silly addNameRange     '3.17.0',
+568 silly addNameRange     '3.17.1',
+568 silly addNameRange     '4.9.0',
+568 silly addNameRange     '3.17.2',
+568 silly addNameRange     '4.9.1',
+568 silly addNameRange     '4.9.2',
+568 silly addNameRange     '3.17.3',
+568 silly addNameRange     '4.9.3',
+568 silly addNameRange     '3.17.4',
+568 silly addNameRange     '4.9.4',
+568 silly addNameRange     '3.17.5',
+568 silly addNameRange     '4.9.5',
+568 silly addNameRange     '3.17.6',
+568 silly addNameRange     '3.17.7',
+568 silly addNameRange     '4.9.6',
+568 silly addNameRange     '4.9.7',
+568 silly addNameRange     '3.17.8',
+568 silly addNameRange     '4.9.8',
+568 silly addNameRange     '3.18.0',
+568 silly addNameRange     '3.18.1',
+568 silly addNameRange     '4.10.0',
+568 silly addNameRange     '3.18.2',
+568 silly addNameRange     '4.10.1',
+568 silly addNameRange     '5.0.0-alpha.1',
+568 silly addNameRange     '3.18.3',
+568 silly addNameRange     '4.10.2',
+568 silly addNameRange     '3.18.4',
+568 silly addNameRange     '4.10.3',
+568 silly addNameRange     '4.10.4',
+568 silly addNameRange     '4.10.5',
+568 silly addNameRange     '3.18.5',
+568 silly addNameRange     '3.18.6',
+568 silly addNameRange     '4.10.6',
+568 silly addNameRange     '4.10.7',
+568 silly addNameRange     '3.19.0',
+568 silly addNameRange     '4.10.8',
+568 silly addNameRange     '4.11.0',
+568 silly addNameRange     '3.19.1',
+568 silly addNameRange     '4.11.1',
+568 silly addNameRange     '3.19.2',
+568 silly addNameRange     '4.11.2',
+568 silly addNameRange     '3.20.0',
+568 silly addNameRange     '4.12.0',
+568 silly addNameRange     '3.20.1',
+568 silly addNameRange     '4.12.1',
+568 silly addNameRange     '4.12.2' ] ]
+569 verbose addNamed express@4.2.0
+570 silly addNamed semver.valid 4.2.0
+571 silly addNamed semver.validRange 4.2.0
+572 silly mapToRegistry name express
+573 silly mapToRegistry using default registry
+574 silly mapToRegistry registry https://registry.npmjs.org/
+575 silly mapToRegistry uri https://registry.npmjs.org/express
+576 verbose addRemoteTarball https://registry.npmjs.org/express/-/express-4.2.0.tgz not in flight; adding
+577 verbose addRemoteTarball [ 'https://registry.npmjs.org/express/-/express-4.2.0.tgz',
+577 verbose addRemoteTarball   '3121993a45126693e8bf897aefb4dd783762dc60' ]
+578 info retry fetch attempt 1 at 08:24:59
+579 info attempt registry request try #1 at 08:24:59
+580 http fetch GET https://registry.npmjs.org/express/-/express-4.2.0.tgz
+581 http fetch 200 https://registry.npmjs.org/express/-/express-4.2.0.tgz
+582 silly fetchAndShaCheck shasum 3121993a45126693e8bf897aefb4dd783762dc60
+583 verbose addTmpTarball C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\registry.npmjs.org\express\-\express-4.2.0.tgz not in flight; adding
+584 verbose addTmpTarball already have metadata; skipping unpack for express@4.2.0
+585 silly cache afterAdd express@4.2.0
+586 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\express\4.2.0\package\package.json not in flight; writing
+587 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\express\4.2.0\package\package.json written
+588 verbose git fetch -a origin (https://github.com/bigpipe/pagelet)
+589 silly verifyOwnership skipping for windows
+590 info git [ 'rev-list', '-n1', 'master' ]
+591 verbose git rev-list -n1 master f3d62235274bad4c4e70d02d4d07d515d3be2313
+592 verbose resolved git url git+https://github.com/bigpipe/pagelet#f3d62235274bad4c4e70d02d4d07d515d3be2313
+593 info git [ 'clone',
+593 info git   'C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\_git-remotes\\https-github-com-bigpipe-pagelet-c569f206',
+593 info git   'C:\\Users\\GUIDOB~1\\AppData\\Local\\Temp\\npm-4552-01938655\\git-cache-19c07d8f1631\\f3d62235274bad4c4e70d02d4d07d515d3be2313' ]
+594 verbose git clone from C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\https-github-com-bigpipe-pagelet-c569f206
+595 verbose git clone Cloning into 'C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\git-cache-19c07d8f1631\f3d62235274bad4c4e70d02d4d07d515d3be2313'...
+595 verbose git clone done.
+596 info git [ 'checkout', 'f3d62235274bad4c4e70d02d4d07d515d3be2313' ]
+597 verbose git checkout Note: checking out 'f3d62235274bad4c4e70d02d4d07d515d3be2313'.
+597 verbose git checkout
+597 verbose git checkout You are in 'detached HEAD' state. You can look around, make experimental
+597 verbose git checkout changes and commit them, and you can discard any commits you make in this
+597 verbose git checkout state without impacting any branches by performing another checkout.
+597 verbose git checkout
+597 verbose git checkout If you want to create a new branch to retain commits you create, you may
+597 verbose git checkout do so (now or later) by using -b with the checkout command again. Example:
+597 verbose git checkout
+597 verbose git checkout   git checkout -b new_branch_name
+597 verbose git checkout
+597 verbose git checkout HEAD is now at f3d6223... [minor] reduce size of pagelet.id and provide order through date.now
+598 verbose addLocalDirectory C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pagelet\1.0.0-alpha-1\package.tgz not in flight; packing
+599 verbose tar pack [ 'C:\\Users\\Guido Bothe\\AppData\\Roaming\\npm-cache\\pagelet\\1.0.0-alpha-1\\package.tgz',
+599 verbose tar pack   'C:\\Users\\GUIDOB~1\\AppData\\Local\\Temp\\npm-4552-01938655\\git-cache-19c07d8f1631\\f3d62235274bad4c4e70d02d4d07d515d3be2313' ]
+600 verbose tarball C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pagelet\1.0.0-alpha-1\package.tgz
+601 verbose folder C:\Users\GUIDOB~1\AppData\Local\Temp\npm-4552-01938655\git-cache-19c07d8f1631\f3d62235274bad4c4e70d02d4d07d515d3be2313
+602 verbose addLocalTarball adding from inside cache C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pagelet\1.0.0-alpha-1\package.tgz
+603 silly cache afterAdd pagelet@1.0.0-alpha-1
+604 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pagelet\1.0.0-alpha-1\package\package.json not in flight; writing
+605 verbose afterAdd C:\Users\Guido Bothe\AppData\Roaming\npm-cache\pagelet\1.0.0-alpha-1\package\package.json written
+606 verbose stack Error: Command failed: git -c core.longpaths=true clone --template=C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/flatiron/winston C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a
+606 verbose stack Cloning into bare repository 'C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a'...
+606 verbose stack fatal: unable to connect to github.com:
+606 verbose stack github.com[0: 192.30.252.130]: errno=No error
+606 verbose stack
+606 verbose stack
+606 verbose stack     at ChildProcess.exithandler (child_process.js:744:12)
+606 verbose stack     at ChildProcess.emit (events.js:110:17)
+606 verbose stack     at maybeClose (child_process.js:1008:16)
+606 verbose stack     at Socket.<anonymous> (child_process.js:1176:11)
+606 verbose stack     at Socket.emit (events.js:107:17)
+606 verbose stack     at Pipe.close (net.js:476:12)
+607 verbose cwd D:\Projekte Backup\__EIGENE\HTML5 Days 2015\Test\WSTest
+608 error Windows_NT 6.1.7601
+609 error argv "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+610 error node v0.12.0
+611 error npm  v2.5.1
+612 error code 128
+613 error Command failed: git -c core.longpaths=true clone --template=C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\_templates --mirror git://github.com/flatiron/winston C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a
+613 error Cloning into bare repository 'C:\Users\Guido Bothe\AppData\Roaming\npm-cache\_git-remotes\git-github-com-flatiron-winston-fcc3ea8a'...
+613 error fatal: unable to connect to github.com:
+613 error github.com[0: 192.30.252.130]: errno=No error
+614 error If you need help, you may report this error at:
+614 error     <http://github.com/npm/npm/issues>
+615 verbose exit [ 1, true ]
